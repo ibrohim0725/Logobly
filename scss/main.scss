@@ -1,3 +1,6 @@
+$brown: #ec6c21;
+$blue:#002959;
+
 body {
   background-image: url(../photos/Layer_1.png);
   background-repeat: no-repeat;
@@ -25,7 +28,7 @@ body {
     font-weight: 500;
     line-height: 19.36px;
     text-decoration: none;
-    color: #002959;
+    color: $blue;
   }
 }
 .a-img {
@@ -34,7 +37,7 @@ body {
   top: 1px;
 }
 @mixin btn_mixin() {
-  background-color: #ec6c21;
+  background-color: $brown;
   padding: 18px 30px;
   border: none;
   color: #ffffff;
@@ -42,7 +45,6 @@ body {
   align-items: center;
   gap: 6px;
   cursor: pointer;
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.36px;
@@ -67,7 +69,7 @@ body {
   font-size: 61px;
   font-weight: 600;
   line-height: 70px;
-  color: #002959;
+  color: $blue;
   width: 982px;
   background-image: url(../photos/bacg1.png);
   background-repeat: no-repeat;
@@ -80,7 +82,7 @@ body {
   font-size: 19.3px;
   font-weight: 400;
   line-height: 28px;
-  color: #002959;
+  color: $blue;
 }
 .body-img {
   margin-top: -100px;
